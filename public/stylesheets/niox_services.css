@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0rem;
+}
+
+.niox_services {
+  padding: 1rem 7rem 5rem 7rem;
+  background-color: #222211;
+  color: #fff;
+}
+
+.niox_services img {
+  height: 15rem;
+  width: auto;
+  border-radius: 10px;
+
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  padding: 1rem 6rem;
+}
+
+.niox_services .niox_services_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+
+.niox_services .niox_services_grid h2, .niox_services .niox_services_grid p {
+  padding: 1rem 6rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.niox_services_after_animation {
+  padding: 6rem 7rem 0rem 7rem;
+  background-color: #d9d9d9;
+}
+
+.niox_services_after_animation .fully_customizible2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  background-color: #eeeedd;
+}
+
+.niox_services_after_animation .fully_customizible2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+.niox_services_after_animation .fully_customizible2 div {
+  padding: 4rem;
+}
+
+.niox_services_after_animation .fully_customizible2 div h2 {
+  margin-top: 5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.niox_services_after_animation .fully_customizible2 div p {
+  padding-top: 3rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.niox_services_after_animation .niox_services_grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33% 33%;
+      grid-template-columns: 33% 33% 33% 33%;
+}
+
+.niox_services_after_animation .niox_services_grid2 img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 10px;
+
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.niox_services_after_animation .niox_services_grid_box {
+  margin: 0.5rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: #eeeedd;
+}
+/*# sourceMappingURL=niox_services.css.map */

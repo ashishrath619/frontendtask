@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousole {
+  overflow: hidden;
+}
+
+.animation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100% 100%;
+      grid-template-columns: 100% 100%;
+  position: relative;
+  -webkit-animation: 10s slider infinite;
+          animation: 10s slider infinite;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+@-webkit-keyframes slider {
+  25% {
+    left: 0;
+  }
+  50% {
+    left: -100%;
+  }
+}
+
+@keyframes slider {
+  25% {
+    left: 0;
+  }
+  50% {
+    left: -100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

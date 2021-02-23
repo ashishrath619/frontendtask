@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+font-size: 15px;
+}
+
+.upperNav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80% 20%;
+      grid-template-columns: 80% 20%;
+  background-color: #2e2e1f;
+  color: #fff;
+  padding: 1rem 7rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.upperNav .right {
+  text-align: right;
+}
+
+.upperNav div a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.upperNav div button {
+  border: none;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.upperNav div .signin_button {
+  border: 1px solid #fff;
+  background-color: #2e2e1f;
+  color: #fff;
+}
+
+.upperNav div .signup_button {
+  background-color: #fff;
+  color: #2e2e1f;
+}
+
+.heroSection {
+  padding: 1.5rem 7rem;
+  color: #fff;
+  background-color:#33d9b2;
+  position: relative;
+  height: 25rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.heroSection .lowerNav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      font-family: 'Noto Sans JP', sans-serif;
+font-size: 30px;
+
+}
+
+.heroSection .lowerNav li {
+  display: inline;
+  float: right;
+  padding-left: 1rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.heroSection .lowerNav li select {
+  border: none;
+  background-color:#33d9b2;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.heroSection h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 3rem 0rem 1rem 0rem;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.heroSection p {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.heroSection button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #ff3838;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heroSection .header_image {
+  height: 20rem;
+  width: auto;
+  border-radius: 0.5rem;
+  z-index: 100;
+  position: absolute;
+  display: block;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.index_header_second_part {
+  background-color: #eeeedd;
+  height: 10rem;
+}
+
+.niox_herosection_after_animation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+}
+/*# sourceMappingURL=header.css.map */

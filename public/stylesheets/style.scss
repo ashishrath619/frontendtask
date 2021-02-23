@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousole {
+	overflow: hidden;
+}
+
+.animation {
+    display: grid;
+    grid-template-columns: 100% 100%;
+	position: relative;
+	animation: 10s slider infinite;
+    transition: 5s;
+}
+
+@keyframes slider {
+
+	25% {
+		left: 0;
+	}
+
+    
+	50% {
+		left: -100%;
+	}
+	
+}
